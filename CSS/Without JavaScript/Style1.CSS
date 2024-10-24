@@ -1,0 +1,29 @@
+body{
+    background-color: #98B9F2;
+    text-transform: capitalize;
+}
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#A01{
+    background-color: #6F9CEB;
+    text-align: center;
+}
+
+.heading {
+    color: #141B41;
+}
+
+button{
+    background-color: #206BAC;
+}
+
+#Outer{
+    font-size: 25px;
+}
+
+#Inner{
+    font-size: 10px;
+}

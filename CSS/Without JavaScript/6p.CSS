@@ -1,0 +1,35 @@
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+    
+}
+
+ul{
+    background-color:  #ebca83;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#outer{
+    height: 500px;
+    width: 500px;
+    background-color: #ebca83;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inner{
+    height: 200px;
+    width: 200px;
+    background-color: #a57a2b;
+    border: 2px solid black;
+    text-align: center;
+}

@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #121921;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+/* box1 */
+
+.nav-logo{
+    height: 50px;
+    width: 105px;
+    margin-top: 1px;
+    padding: 1px 8px 0px 6px;
+}
+
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+/* box2 */
+
+.add-first {
+    color: #CCCCCC;
+    font-size: 0.85rem;
+    margin-left: 15px;
+    padding-bottom: 1px;
+}
+
+.add-second {
+    color: white;
+    font-size: 1 rem;
+    margin-left: 3px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/* box3 */
+
+.nav-address{
+    margin: 5px 2px 5px 0px;
+    padding: 0px 9px;
+    
+}
+
+.nav-search{
+    display: flex;
+}
+
+#searchA{
+    width: 688px;
+    padding: 7px 10px 10px 0px;
+}
+
+.search-icon{
+    width: 45px;
+    height: 40px;
+    background-color: #e99f3e;
+    color: #0f1111;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+    align-content: center;
+}
+
+#nav-cat{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 50px;
+}
+
+.lag-icon{
+    display: flex;
+    align-items: center;
+    width: 52px;
+    font-size: 14px;
+}
+
+.nav-last{
+    display: flex;
+    justify-content: space-evenly;
+    width: 460px;
+}
+
+.nav-cart{
+    display: flex;
+    align-items: center;
+}
+
+.nav-returns{
+   color: white;
+}
+
+.nav-orders{
+    color: white;
+    font-size: 14px;
+}
+
+.fa-earth-americas{
+    margin: 0px 3px 1px 0px;
+}
+
+#sub1{
+    font-size: 12px;
+}
+
+.login-2{
+    display: flex;
+}
+
+.fa-sort-down{
+    margin: 0px 0px 4px 3px;
+}
+
+.sub-navbar{
+    background-color: #1f2934;
+    height: 39px;
+    color: white;
+    display: flex;
+}
+
+.sub-list{
+    display: flex;
+    padding: 8px 9px 8px 9px;
+    margin: 0px 50px 6px 20px;
+}
+
+.sub-list-all-test{
+    padding-left: 5px;
+}
+
+.sub-navbar-mid{
+    display: flex;
+}
+
+#sub-mid{
+    margin: 0px 0px 6px 0px;
+    padding: 8px 15px 8px 12px;
+}
+
+.sub-navbar-last{
+    margin-left: 550px;
+    padding-top: 8px;
+}
+
+.middle{
+    background-color: #e8e4e4;
+    height: 800px;
+}
+
+.middlestrip{
+    background-color: white;
+    height: 40px;
+    z-index: 1;
+    top: -280px;
+    position: relative;
+    width: 1427px;
+    left: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.middlestrip2{
+    color: #2e5f64;
+}
+
+.box{
+    width: 343px;
+    height: 420px;
+    background-color: white;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.boxes{
+    display: flex;
+    top: -250px;
+    width: 1427px;
+    position: relative;
+    left: 26px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.boximage{
+    height: 304px;
+    width: 301.6px;
+    object-fit: cover;
+    margin-left: 20px;
+}
+
+.hero{
+    width: 100%;
+}
+
+.box_title{
+    margin-left: 20px;
+}
+
+.last_box{
+    font-size: 14px;
+    color: #007185;
+    margin-left: 20px;
+}
+
+.back_top{
+    text-align: center;
+    background-color: #38445c;
+    height: 23px;
+    color: white;
+    padding: 17px 0px 15px 0px;
+    position: relative;
+    top: 460px;
+}
+
+.foot1{
+    display: flex;
+    width: 138px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.foot10{
+    margin: 6px 0px 14px 0px;
+    font-size: 18px;
+}
+
+.foot11{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #232F3E;
+    color: white;
+    position: relative;
+    top: 460px;
+}
+
+.foot2{
+    display: flex;
+    width: 185px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.foot3{
+    display: flex;
+    width: 223px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.foot4{
+    display: flex;
+    width: 158px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}

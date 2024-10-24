@@ -1,0 +1,24 @@
+#wall{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    background-image: url(/CSS/sleepycat.jpg);
+    background-size: cover;
+    position: fixed;
+    right : 0px;
+    z-index: 1; 
+}
+
+body{
+    background-color: #ebca83;
+}
+
+#ln{
+    background-image: url(/CSS/Nature_.jpg);
+    background-size: cover;
+    text-align: center;
+    width: 400px;
+    position: fixed;
+    left: 400px;
+    
+}
